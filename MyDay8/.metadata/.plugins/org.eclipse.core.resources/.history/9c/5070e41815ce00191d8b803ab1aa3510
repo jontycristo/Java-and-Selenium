@@ -1,0 +1,64 @@
+package listConcept;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ArrayListConcepts {
+
+	public static <E> void main(String[] args) {
+
+		ArrayList ar = new ArrayList();
+
+		ar.add(10);
+		ar.add("Cristo");
+		ar.add(10.33);
+		ar.add('A');
+		ar.add(50);
+
+		System.out.println(ar.size());
+
+		for (int i = 0; i < ar.size(); i++) {
+			System.out.println(ar.get(i));
+		}
+
+		ArrayList<Integer> arr = new ArrayList<Integer>();
+		arr.add(10);
+
+		ArrayList<E> ar1 = new ArrayList<E>();
+
+		EmployeeClass e = new EmployeeClass("John", 26, "Dev");
+		EmployeeClass e1 = new EmployeeClass("Harry", 27, "QA");
+		EmployeeClass e2 = new EmployeeClass("Navin", 28, "Admin");
+
+		ArrayList<EmployeeClass> ar2 = new ArrayList<EmployeeClass>();
+		ar2.add(e);
+		ar2.add(e1);
+		ar2.add(e2);
+
+		Iterator<EmployeeClass> it = ar2.iterator();
+		while (it.hasNext()) {
+			EmployeeClass emp = it.next();
+			System.out.println(emp.name);
+			System.out.println(emp.age);
+			System.out.println(emp.dep);
+		}
+
+		ArrayList<String> ar3 = new ArrayList<String>();
+		ar3.add("QA");
+		ar3.add("Dev");
+		ar3.add("Admin");
+
+		ArrayList<String> ar4 = new ArrayList<String>();
+		ar4.add("Support");
+		ar4.add("RMG");
+		ar4.add("HR");
+
+		ar3.addAll(ar4);
+
+		for (int i = 0; i < ar3.size(); i++) {
+			System.out.println(ar3.get(i));
+
+		}
+	}
+
+}

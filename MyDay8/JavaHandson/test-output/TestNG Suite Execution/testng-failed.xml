@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG Suite Execution]">
+  <test name="Execute all the class">
+    <classes>
+      <class name="com.testng.TestNgBasics"/>
+      <class name="com.testng.GoogleTest"/>
+      <class name="com.testng.DependsOnMethodTest"/>
+      <class name="com.testng.InvocationCount"/>
+      <class name="com.testng.TimeOutsException"/>
+    </classes>
+  </test> <!-- Execute all the class -->
+  <test name="Execute all the class(failed)">
+    <classes>
+      <class name="com.testng.GoogleTest">
+        <methods>
+          <include name="GoogleTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="MailTest"/>
+        </methods>
+      </class> <!-- com.testng.GoogleTest -->
+      <class name="com.testng.TestNgBasics">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="deleteAllCookies"/>
+          <include name="Login"/>
+          <include name="Logout"/>
+          <include name="launchbrowser"/>
+          <include name="Generateeport"/>
+          <include name="setUp"/>
+          <include name="enterURL"/>
+        </methods>
+      </class> <!-- com.testng.TestNgBasics -->
+    </classes>
+  </test> <!-- Execute all the class(failed) -->
+</suite> <!-- Failed suite [TestNG Suite Execution] -->

@@ -1,0 +1,53 @@
+package listConcept;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+import encapsulation.Employee;
+
+public class ArrayListConcepts {
+	
+	public static <E> void main (String[] args) {
+		
+		ArrayList ar = new ArrayList();
+		
+		ar.add(10);
+		ar.add("Cristo");
+		ar.add(10.33);
+		ar.add('A');
+		ar.add(50);
+		
+		System.out.println(ar.size());
+		
+		for(int i=0; i<ar.size();i++){
+			System.out.println(ar.get(i));
+		}
+		
+		ArrayList<Integer> arr = new ArrayList<Integer>();
+		arr.add(10);
+		
+		ArrayList<E> ar1 = new ArrayList<E>();
+	
+		EmployeeClass em = new EmployeeClass("John", 25, "Dev");
+		EmployeeClass em1 = new EmployeeClass("Dreck", 24, "QA");
+		EmployeeClass em2 = new EmployeeClass("Karol", 34, "Support");
+		
+		ArrayList<EmployeeClass> ar2= new ArrayList<EmployeeClass>();
+		ar2.add(em);
+		ar2.add(em1);
+		ar2.add(em2);
+		
+		Iterator<EmployeeClass> it = ar2.iterator();
+		while(it.hasNext()){
+			EmployeeClass emp = it.next();
+			System.out.println(emp.name);
+			System.out.println(emp.age);
+			System.out.println(emp.dep);
+			
+		}
+		
+	}
+	
+	
+
+}

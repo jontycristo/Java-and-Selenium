@@ -1,0 +1,29 @@
+package JavaConcepts;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+
+public class CollectAPI {
+
+	public static void main(String[] args) {
+		ArrayList<String> tab= new ArrayList<>();
+		tab.add("Cristo");
+		tab.add("Jonty");
+		tab.add("");
+		
+		int a=tab.size();
+		System.out.println(a);
+		
+		for(int i=0;i<tab.size();i++)
+		{
+			System.out.println(tab.get(i));
+		}
+		System.out.println("=======================================");
+		
+		HashSet<String> list= new HashSet<>();
+		set.list("Name","Cristo");
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package JavaConcepts;
+
+public class AlternateElem {
+
+	public static void main(String[] args) {
+		Object table[][] = new Object[3][5];
+		table[0][0]="20";
+		table[0][1]="30";
+		table[0][2]="40";
+		
+		table[1][0]="John";
+		table[1][1]="Steve";
+		table[1][2]="Mike";
+		
+		table[2][0]="85236974";
+		table[2][1]="974";
+		table[2][2]="85";
+		
+		int a=table.length;
+		int b=table[0].length;
+		
+		System.out.println(b);
+	}
+
+}

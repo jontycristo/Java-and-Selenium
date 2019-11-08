@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UAT test suite">
+
+
+
+
+<test name="TestCase1">
+    <classes>
+        <class name="testcase.TestNGFrstCase" ></class>  
+    </classes>
+</test>
+
+<test name="TestCase2">
+    <classes>
+        <class name="testcase.TestNGSecCase" ></class>  
+    </classes>
+</test>
+
+
+
+
+</suite>

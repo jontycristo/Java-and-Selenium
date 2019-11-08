@@ -1,0 +1,2560 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>E:\New_Integrated_CSR_SetUp\Call_Center\ICICI_CSR.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">53 methods, 5 failed,   48 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.User_tc" hash-for-method="add_user(Akastpt, Akash, 9865986598, akashhh@fss.co, CMSGRPS, No, Submit)">add_user(Akastpt, Akash, 9865986598, akashhh@fss.co, CMSGRPS, No, Submit)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.FeePlan_tc" hash-for-method="callClose">callClose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.FeePlan_tc" hash-for-method="editfeeplan(IVR FEE PLAN, Fee Plan Selected)">editfeeplan(IVR FEE PLAN, Fee Plan Selected)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.FeePlan_tc" hash-for-method="editfeeplan(TOP UP FEE PLAN, Fee Plan Selected)">editfeeplan(TOP UP FEE PLAN, Fee Plan Selected)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.FeePlan_tc" hash-for-method="editfeeplan(POSPURCHASEFEE, Fee Plan Selected)">editfeeplan(POSPURCHASEFEE, Fee Plan Selected)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.FeePlan_tc" hash-for-method="editfeeplan(TRAN FEE PLAN, Fee Plan Selected)">editfeeplan(TRAN FEE PLAN, Fee Plan Selected)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.User_tc" hash-for-method="search_user(User, AAKSHM, Akash, Activate, ACTIVE, SUSPENDED, LOCKED, EXPIRED)">search_user(User, AAKSHM, Akash, Activate, ACTIVE, SUSPENDED, LOCKED, EXPIRED)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.FeePlan_tc" hash-for-method="viewfeeplan(Card, 4726450012000982, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)">viewfeeplan(Card, 4726450012000982, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Edit_Account_tc" hash-for-method="EditAccount(Account, Personal Details, Contact Details, ID Details, Address Details, Other Details, E-Commerce, ...)">EditAccount(Account, Personal Details, Contact Details, ID Details, Address Details, Other Details, E-Commerce, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Limit_tc" hash-for-method="Limits(Card, 4726451234001758, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)">Limits(Card, 4726451234001758, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Services_tc" hash-for-method="Login(Card, 4726451234004059, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)">Login(Card, 4726451234004059, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Edit_Account_tc" hash-for-method="Login(Card, 5789120140003122, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)">Login(Card, 5789120140003122, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Edit_Account_tc" hash-for-method="Logout(Logout Remarks)">Logout(Logout Remarks)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Services_tc" hash-for-method="Logout(Logout Remarks)">Logout(Logout Remarks)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.MySetUp_tc" hash-for-method="MySetUp(Check to edit below details1, akashm@fss.co.in, Name of high school, Veer Jijau, Favorite animal, Ti...)">MySetUp(Check to edit below details1, akashm@fss.co.in, Name of high school, Veer Jijau, Favorite animal, Ti...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.MySetUp_tc" hash-for-method="MySetUp(Check to edit below details1, akashm@fss.co.in, Name of high school, Veer Jijau, Favorite animal, Ti...)">MySetUp(Check to edit below details1, akashm@fss.co.in, Name of high school, Veer Jijau, Favorite animal, Ti...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Services_tc" hash-for-method="VerifyStatement(Services, accountNo, year, month, ToYear, ToMonth, View Statement, E-mail Statement, USD A/C – 12340...)">VerifyStatement(Services, accountNo, year, month, ToYear, ToMonth, View Statement, E-mail Statement, USD A/C – 12340...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Services_tc" hash-for-method="ViewStatement(USD A/C – 1234001773237, 2016, AUG, 2017, DEC)">ViewStatement(USD A/C – 1234001773237, 2016, AUG, 2017, DEC)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Services_tc" hash-for-method="ViewStatement(USD A/C – 1234001773237, 2018, JUN, 2018, FEB)">ViewStatement(USD A/C – 1234001773237, 2018, JUN, 2018, FEB)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Services_tc" hash-for-method="ViewStatement(USD A/C – 1234001773237, 2017, JUL, 2017, JUN)">ViewStatement(USD A/C – 1234001773237, 2017, JUL, 2017, JUN)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Services_tc" hash-for-method="ViewStatement(USD A/C – 1234001773237, 2018, AUG, 2017, DEC)">ViewStatement(USD A/C – 1234001773237, 2018, AUG, 2017, DEC)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Card_Status_tc" hash-for-method="activate(Lost-Stolen, Activate, Activate, Please Change the card)">activate(Lost-Stolen, Activate, Activate, Please Change the card)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.KitToKit_tc" hash-for-method="callClose">callClose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Card_Status_tc" hash-for-method="callClose">callClose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Card_Status_tc" hash-for-method="card_Status_Change(Activate, Lost-Stolen, Activate, Please Change the card)">card_Status_Change(Activate, Lost-Stolen, Activate, Please Change the card)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Card_Status_tc" hash-for-method="card_Status_Change1(Lost-Stolen, Lost-Stolen, Activate, Please Change the card)">card_Status_Change1(Lost-Stolen, Lost-Stolen, Activate, Please Change the card)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Comments_tc" hash-for-method="comments(Card, 4614610016042125, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)">comments(Card, 4614610016042125, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.CreateCall_tc" hash-for-method="createCall">createCall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.CreateCall_tc" hash-for-method="createCallpage1(Account, 4726450012000982, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 1234000000...)">createCallpage1(Account, 4726450012000982, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 1234000000...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.CreateCall_tc" hash-for-method="createCallpage2(Customer Verification, Verify at Least Two Fields, DOB, Expiry Date, Mothers Maiden Name, Last Five ...)">createCallpage2(Customer Verification, Verify at Least Two Fields, DOB, Expiry Date, Mothers Maiden Name, Last Five ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Group_tc" hash-for-method="group(* This field is required * Alphabets only * Length between 5 and 15 , Select Atleast One BIN, Submit...)">group(* This field is required * Alphabets only * Length between 5 and 15 , Select Atleast One BIN, Submit...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Group_tc" hash-for-method="group(* This field is required * Alphabets only * Length between 5 and 15 , Select Atleast One BIN, Submit...)">group(* This field is required * Alphabets only * Length between 5 and 15 , Select Atleast One BIN, Submit...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.KitToKit_tc" hash-for-method="kittokit1(4794121200077416)">kittokit1(4794121200077416)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.KitToKit_tc" hash-for-method="kittokit2(M2M, 4726450016003420, Kit Replacement Status, Message , Card Number, Status, Back)">kittokit2(M2M, 4726450016003420, Kit Replacement Status, Message , Card Number, Status, Back)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.KitToKit_tc" hash-for-method="kittokitpage1(Card, 4726450001000035, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)">kittokitpage1(Card, 4726450001000035, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Login_tc" hash-for-method="login(Call Center, Card, Account, First Name, Last Name, Date Of Birth, Email Address, ID Number, Online U...)">login(Call Center, Card, Account, First Name, Last Name, Date Of Birth, Email Address, ID Number, Online U...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Group_tc" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.User_tc" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.RRNSearch_tc" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.MySetUp_tc" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.RRNSearch_tc" hash-for-method="rrnScreenVerify(Mhead, RRN , Delivery Channel, Transaction Date, Product, Product Category, Search, Customer Search,...)">rrnScreenVerify(Mhead, RRN , Delivery Channel, Transaction Date, Product, Product Category, Search, Customer Search,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.RRNSearch_tc" hash-for-method="rrnSearch(* This field is required, * Please Select any one Option, * This field is required, * Please Select ...)">rrnSearch(* This field is required, * Please Select any one Option, * This field is required, * Please Select ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Card_Status_tc" hash-for-method="screenVerify(Card, 4614610016042125, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)">screenVerify(Card, 4614610016042125, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Group_tc" hash-for-method="searchNewGroup(Group, selegvf)">searchNewGroup(Group, selegvf)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Group_tc" hash-for-method="searchNewGroup(Group, seleptpt)">searchNewGroup(Group, seleptpt)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.User_tc" hash-for-method="search_user(User, Akashbg, Akash, Activate, ACTIVE, SUSPENDED, LOCKED, EXPIRED)">search_user(User, Akashbg, Akash, Activate, ACTIVE, SUSPENDED, LOCKED, EXPIRED)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Group_tc" hash-for-method="verifyAlert(Group, Create New Group, seleptpt, TECHNOLOGY, ICICI(PROCESSOR), VISA PRODUCT,   &gt; &gt;  , Submit, Grou...)">verifyAlert(Group, Create New Group, seleptpt, TECHNOLOGY, ICICI(PROCESSOR), VISA PRODUCT,   > >  , Submit, Grou...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Comments_tc" hash-for-method="verifyLink">verifyLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.User_tc" hash-for-method="verify_userpage1(User, User, Create New User, UserId :, User Name :, Status :, Search , UserId, User Name, Status, Gr...)">verify_userpage1(User, User, Create New User, UserId :, User Name :, Status :, Search , UserId, User Name, Status, Gr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.User_tc" hash-for-method="verify_userpage2(Create New User, User Personal Details, Contact Information, User Profile Details, User Authorizatio...)">verify_userpage2(Create New User, User Personal Details, Contact Information, User Profile Details, User Authorizatio...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Group_tc" hash-for-method="viewGroup(Group, Mhead, GrpName, status, active, Inactive, all, role, Alldrp, search, crtnewgrp, User Group Se...)">viewGroup(Group, Mhead, GrpName, status, active, Inactive, all, role, Alldrp, search, crtnewgrp, User Group Se...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.MySetUp_tc" hash-for-method="viewMySetUp(My Setup, MySetUp, User Personal Details, User ID , Date Of Birth, From Date , To Date, User Profile...)">viewMySetUp(My Setup, MySetUp, User Personal Details, User ID , Date Of Birth, From Date , To Date, User Profile...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="cms.tcases.Group_tc" hash-for-method="viewNewGroup(Create New Group, NgrpName, LPCI, Srole, Sowner, SprodName, back, submit, clear)">viewNewGroup(Create New Group, NgrpName, LPCI, Srole, Sowner, SprodName, back, submit, clear)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">cms.tcases.FeePlan_tc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editfeeplan(IVR FEE PLAN, Fee Plan Selected)">
+                  </a> <!-- editfeeplan(IVR FEE PLAN, Fee Plan Selected) -->
+                  <span class="method-name">editfeeplan</span>
+                  <span class="parameters">(IVR FEE PLAN, Fee Plan Selected)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;FSSMUMD841&apos;, ip: &apos;10.22.72.44&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_65&apos;
+*** Element info: {Using=xpath, value=//*[@id=&quot;cmscontentinner&quot;]/div[2]/div[1]/ul/li/span}
+Session ID: ff2e89e11b5f9568e65e6b882f727466
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8_1, acceptSslCerts=false, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\akashm\AppData\Local\Temp\scoped_dir4152_22876, chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, setWindowRect=true, mobileEmulationEnabled=false, locationContextEnabled=true, pageLoadStrategy=normal, version=67.0.3396.79, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true, acceptInsecureCerts=false}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:911)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:909)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at cms.pages.Wrapper_Methods.getTextByXpath(Wrapper_Methods.java:81)
+	at cms.pages.FeePlan.resultMessage(FeePlan.java:109)
+	at cms.tcases.FeePlan_tc.editfeeplan(FeePlan_tc.java:43)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editfeeplan(TOP UP FEE PLAN, Fee Plan Selected)">
+                  </a> <!-- editfeeplan(TOP UP FEE PLAN, Fee Plan Selected) -->
+                  <span class="method-name">editfeeplan</span>
+                  <span class="parameters">(TOP UP FEE PLAN, Fee Plan Selected)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id=&quot;cmscontentinner&quot;]/div[2]/div[1]/ul/li/span
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;FSSMUMD841&apos;, ip: &apos;10.22.72.44&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_65&apos;
+Session ID: ff2e89e11b5f9568e65e6b882f727466
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8_1, acceptSslCerts=false, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\akashm\AppData\Local\Temp\scoped_dir4152_22876, chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, setWindowRect=true, mobileEmulationEnabled=false, locationContextEnabled=true, pageLoadStrategy=normal, version=67.0.3396.79, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true, acceptInsecureCerts=false}]
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at cms.pages.Wrapper_Methods.getTextByXpath(Wrapper_Methods.java:81)
+	at cms.pages.FeePlan.resultMessage(FeePlan.java:109)
+	at cms.tcases.FeePlan_tc.editfeeplan(FeePlan_tc.java:43)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;cmscontentinner&quot;]/div[2]/div[1]/ul/li/span&quot;}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;FSSMUMD841&apos;, ip: &apos;10.22.72.44&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_65&apos;
+*** Element info: {Using=xpath, value=//*[@id=&quot;cmscontentinner&quot;]/div[2]/div[1]/ul/li/span}
+Session ID: ff2e89e11b5f9568e65e6b882f727466
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8_1, acceptSslCerts=false, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\akashm\AppData\Local\Temp\scoped_dir4152_22876, chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, setWindowRect=true, mobileEmulationEnabled=false, locationContextEnabled=true, pageLoadStrategy=normal, version=67.0.3396.79, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true, acceptInsecureCerts=false}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:911)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:909)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 27 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editfeeplan(POSPURCHASEFEE, Fee Plan Selected)">
+                  </a> <!-- editfeeplan(POSPURCHASEFEE, Fee Plan Selected) -->
+                  <span class="method-name">editfeeplan</span>
+                  <span class="parameters">(POSPURCHASEFEE, Fee Plan Selected)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.03 seconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;FSSMUMD841&apos;, ip: &apos;10.22.72.44&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_65&apos;
+*** Element info: {Using=xpath, value=//*[@id=&quot;cmscontentinner&quot;]/div[2]/div[1]/ul/li/span}
+Session ID: ff2e89e11b5f9568e65e6b882f727466
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8_1, acceptSslCerts=false, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\akashm\AppData\Local\Temp\scoped_dir4152_22876, chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, setWindowRect=true, mobileEmulationEnabled=false, locationContextEnabled=true, pageLoadStrategy=normal, version=67.0.3396.79, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true, acceptInsecureCerts=false}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:911)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:909)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at cms.pages.Wrapper_Methods.getTextByXpath(Wrapper_Methods.java:81)
+	at cms.pages.FeePlan.resultMessage(FeePlan.java:109)
+	at cms.tcases.FeePlan_tc.editfeeplan(FeePlan_tc.java:43)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editfeeplan(TRAN FEE PLAN, Fee Plan Selected)">
+                  </a> <!-- editfeeplan(TRAN FEE PLAN, Fee Plan Selected) -->
+                  <span class="method-name">editfeeplan</span>
+                  <span class="parameters">(TRAN FEE PLAN, Fee Plan Selected)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;FSSMUMD841&apos;, ip: &apos;10.22.72.44&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_65&apos;
+*** Element info: {Using=xpath, value=//*[@id=&quot;cmscontentinner&quot;]/div[2]/div[1]/ul/li/span}
+Session ID: ff2e89e11b5f9568e65e6b882f727466
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8_1, acceptSslCerts=false, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\akashm\AppData\Local\Temp\scoped_dir4152_22876, chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, setWindowRect=true, mobileEmulationEnabled=false, locationContextEnabled=true, pageLoadStrategy=normal, version=67.0.3396.79, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true, acceptInsecureCerts=false}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:911)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:909)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at cms.pages.Wrapper_Methods.getTextByXpath(Wrapper_Methods.java:81)
+	at cms.pages.FeePlan.resultMessage(FeePlan.java:109)
+	at cms.tcases.FeePlan_tc.editfeeplan(FeePlan_tc.java:43)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewfeeplan(Card, 4726450012000982, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)">
+                  </a> <!-- viewfeeplan(Card, 4726450012000982, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...) -->
+                  <span class="method-name">viewfeeplan</span>
+                  <span class="parameters">(Card, 4726450012000982, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071, Fee Plan, Edit Fee Plan, Card Number, Fee Plan, Effective Date, View Fee Plan Detail)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id=&quot;panNumber&quot;]
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;FSSMUMD841&apos;, ip: &apos;10.22.72.44&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_65&apos;
+Session ID: ff2e89e11b5f9568e65e6b882f727466
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8_1, acceptSslCerts=false, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\akashm\AppData\Local\Temp\scoped_dir4152_22876, chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, setWindowRect=true, mobileEmulationEnabled=false, locationContextEnabled=true, pageLoadStrategy=normal, version=67.0.3396.79, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true, acceptInsecureCerts=false}]
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at cms.pages.Wrapper_Methods.getTextByXpath(Wrapper_Methods.java:81)
+	at cms.pages.BasePage.enterTextByXpathBase(BasePage.java:73)
+	at cms.pages.Welcome.searchelement(Welcome.java:119)
+	at cms.tcases.FeePlan_tc.viewfeeplan(FeePlan_tc.java:31)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;panNumber&quot;]&quot;}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067d&apos;, time: &apos;2016-02-05 19:11:55&apos;
+System info: host: &apos;FSSMUMD841&apos;, ip: &apos;10.22.72.44&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_65&apos;
+*** Element info: {Using=xpath, value=//*[@id=&quot;panNumber&quot;]}
+Session ID: ff2e89e11b5f9568e65e6b882f727466
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=WIN8_1, acceptSslCerts=false, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\akashm\AppData\Local\Temp\scoped_dir4152_22876, chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, setWindowRect=true, mobileEmulationEnabled=false, locationContextEnabled=true, pageLoadStrategy=normal, version=67.0.3396.79, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true, acceptInsecureCerts=false}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:911)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:909)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 28 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">cms.tcases.Card_Status_tc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="activate(Lost-Stolen, Activate, Activate, Please Change the card)">
+                  </a> <!-- activate(Lost-Stolen, Activate, Activate, Please Change the card) -->
+                  <span class="method-name">activate</span>
+                  <span class="parameters">(Lost-Stolen, Activate, Activate, Please Change the card)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callClose">
+                  </a> <!-- callClose -->
+                  <span class="method-name">callClose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="card_Status_Change(Activate, Lost-Stolen, Activate, Please Change the card)">
+                  </a> <!-- card_Status_Change(Activate, Lost-Stolen, Activate, Please Change the card) -->
+                  <span class="method-name">card_Status_Change</span>
+                  <span class="parameters">(Activate, Lost-Stolen, Activate, Please Change the card)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="card_Status_Change1(Lost-Stolen, Lost-Stolen, Activate, Please Change the card)">
+                  </a> <!-- card_Status_Change1(Lost-Stolen, Lost-Stolen, Activate, Please Change the card) -->
+                  <span class="method-name">card_Status_Change1</span>
+                  <span class="parameters">(Lost-Stolen, Lost-Stolen, Activate, Please Change the card)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="screenVerify(Card, 4614610016042125, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)">
+                  </a> <!-- screenVerify(Card, 4614610016042125, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...) -->
+                  <span class="method-name">screenVerify</span>
+                  <span class="parameters">(Card, 4614610016042125, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071, Card Status, Card Number, Current Card Status, Application Status, Change Card Status To, Remarks, Change Card Status Button)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">cms.tcases.CreateCall_tc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCall">
+                  </a> <!-- createCall -->
+                  <span class="method-name">createCall</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCallpage1(Account, 4726450012000982, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 1234000000...)">
+                  </a> <!-- createCallpage1(Account, 4726450012000982, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 1234000000...) -->
+                  <span class="method-name">createCallpage1</span>
+                  <span class="parameters">(Account, 4726450012000982, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071, Search Details, Proceed, Card, Proxy Number, Card Status, Active Date, Expiry Date, Account, First Name, Middle Name, Last Name, Document Type, ID Number, Online ID, Email Address, Date Of Birth, Mobile Number, Replace Card, Expiry Card, Nationality Code, Primary Account Number, Branch Sole ID, Employee Code, Register SMS Alert, Register Email Alert, Corporate ID, Corporate Name, Organization, Travel Detail, Last Two Deposits, Last Five Transactions)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCallpage2(Customer Verification, Verify at Least Two Fields, DOB, Expiry Date, Mothers Maiden Name, Last Five ...)">
+                  </a> <!-- createCallpage2(Customer Verification, Verify at Least Two Fields, DOB, Expiry Date, Mothers Maiden Name, Last Five ...) -->
+                  <span class="method-name">createCallpage2</span>
+                  <span class="parameters">(Customer Verification, Verify at Least Two Fields, DOB, Expiry Date, Mothers Maiden Name, Last Five Transactions, Mailing Address)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">cms.tcases.Login_tc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(Call Center, Card, Account, First Name, Last Name, Date Of Birth, Email Address, ID Number, Online U...)">
+                  </a> <!-- login(Call Center, Card, Account, First Name, Last Name, Date Of Birth, Email Address, ID Number, Online U...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(Call Center, Card, Account, First Name, Last Name, Date Of Birth, Email Address, ID Number, Online UserID, Cell Phone Number, Passport Number, Proxy Number, Search, Group, User, RRN Search, Homelink, My Setup, Logout)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">cms.tcases.User_tc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_user(Akastpt, Akash, 9865986598, akashhh@fss.co, CMSGRPS, No, Submit)">
+                  </a> <!-- add_user(Akastpt, Akash, 9865986598, akashhh@fss.co, CMSGRPS, No, Submit) -->
+                  <span class="method-name">add_user</span>
+                  <span class="parameters">(Akastpt, Akash, 9865986598, akashhh@fss.co, CMSGRPS, No, Submit)</span>
+                  <div class="stack-trace">[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_user(User, Akashbg, Akash, Activate, ACTIVE, SUSPENDED, LOCKED, EXPIRED)">
+                  </a> <!-- search_user(User, Akashbg, Akash, Activate, ACTIVE, SUSPENDED, LOCKED, EXPIRED) -->
+                  <span class="method-name">search_user</span>
+                  <span class="parameters">(User, Akashbg, Akash, Activate, ACTIVE, SUSPENDED, LOCKED, EXPIRED)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_user(User, AAKSHM, Akash, Activate, ACTIVE, SUSPENDED, LOCKED, EXPIRED)">
+                  </a> <!-- search_user(User, AAKSHM, Akash, Activate, ACTIVE, SUSPENDED, LOCKED, EXPIRED) -->
+                  <span class="method-name">search_user</span>
+                  <span class="parameters">(User, AAKSHM, Akash, Activate, ACTIVE, SUSPENDED, LOCKED, EXPIRED)</span>
+                  <div class="stack-trace">[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_userpage1(User, User, Create New User, UserId :, User Name :, Status :, Search , UserId, User Name, Status, Gr...)">
+                  </a> <!-- verify_userpage1(User, User, Create New User, UserId :, User Name :, Status :, Search , UserId, User Name, Status, Gr...) -->
+                  <span class="method-name">verify_userpage1</span>
+                  <span class="parameters">(User, User, Create New User, UserId :, User Name :, Status :, Search , UserId, User Name, Status, Group, Email Address, Valid From Date, Valid To Date, Mobile No., Sensitive Data Display, Edit, Reset Session)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_userpage2(Create New User, User Personal Details, Contact Information, User Profile Details, User Authorizatio...)">
+                  </a> <!-- verify_userpage2(Create New User, User Personal Details, Contact Information, User Profile Details, User Authorizatio...) -->
+                  <span class="method-name">verify_userpage2</span>
+                  <span class="parameters">(Create New User, User Personal Details, Contact Information, User Profile Details, User Authorization, User ID *, User Name *, Mobile No., Email Address *, Valid From Date *, Valid To Date *, Group *, Display Sensitive Data, Yes, No, Back, Submit, Clear)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">cms.tcases.Comments_tc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="comments(Card, 4614610016042125, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)">
+                  </a> <!-- comments(Card, 4614610016042125, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...) -->
+                  <span class="method-name">comments</span>
+                  <span class="parameters">(Card, 4614610016042125, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071, Comments, Card Number, Source, Call ID, Call Type, Date Time, User ID, User Name, Comments)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLink">
+                  </a> <!-- verifyLink -->
+                  <span class="method-name">verifyLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">cms.tcases.Services_tc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login(Card, 4726451234004059, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)">
+                  </a> <!-- Login(Card, 4726451234004059, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...) -->
+                  <span class="method-name">Login</span>
+                  <span class="parameters">(Card, 4726451234004059, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071, Services)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logout(Logout Remarks)">
+                  </a> <!-- Logout(Logout Remarks) -->
+                  <span class="method-name">Logout</span>
+                  <span class="parameters">(Logout Remarks)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyStatement(Services, accountNo, year, month, ToYear, ToMonth, View Statement, E-mail Statement, USD A/C – 12340...)">
+                  </a> <!-- VerifyStatement(Services, accountNo, year, month, ToYear, ToMonth, View Statement, E-mail Statement, USD A/C – 12340...) -->
+                  <span class="method-name">VerifyStatement</span>
+                  <span class="parameters">(Services, accountNo, year, month, ToYear, ToMonth, View Statement, E-mail Statement, USD A/C – 1234001773237, 2017, JAN, 2017, DEC, View Account Statement, 4726451234004059, Sr.No., Transaction Date, Unique Txn ID(Invoice No), Transaction Description, Transaction Currency, Transaction Amount, Billing Currency, Billing Amount, Credit/Debit flag, CSV, Excel, PDF)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ViewStatement(USD A/C – 1234001773237, 2016, AUG, 2017, DEC)">
+                  </a> <!-- ViewStatement(USD A/C – 1234001773237, 2016, AUG, 2017, DEC) -->
+                  <span class="method-name">ViewStatement</span>
+                  <span class="parameters">(USD A/C – 1234001773237, 2016, AUG, 2017, DEC)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ViewStatement(USD A/C – 1234001773237, 2018, JUN, 2018, FEB)">
+                  </a> <!-- ViewStatement(USD A/C – 1234001773237, 2018, JUN, 2018, FEB) -->
+                  <span class="method-name">ViewStatement</span>
+                  <span class="parameters">(USD A/C – 1234001773237, 2018, JUN, 2018, FEB)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ViewStatement(USD A/C – 1234001773237, 2017, JUL, 2017, JUN)">
+                  </a> <!-- ViewStatement(USD A/C – 1234001773237, 2017, JUL, 2017, JUN) -->
+                  <span class="method-name">ViewStatement</span>
+                  <span class="parameters">(USD A/C – 1234001773237, 2017, JUL, 2017, JUN)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ViewStatement(USD A/C – 1234001773237, 2018, AUG, 2017, DEC)">
+                  </a> <!-- ViewStatement(USD A/C – 1234001773237, 2018, AUG, 2017, DEC) -->
+                  <span class="method-name">ViewStatement</span>
+                  <span class="parameters">(USD A/C – 1234001773237, 2018, AUG, 2017, DEC)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">cms.tcases.RRNSearch_tc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rrnScreenVerify(Mhead, RRN , Delivery Channel, Transaction Date, Product, Product Category, Search, Customer Search,...)">
+                  </a> <!-- rrnScreenVerify(Mhead, RRN , Delivery Channel, Transaction Date, Product, Product Category, Search, Customer Search,...) -->
+                  <span class="method-name">rrnScreenVerify</span>
+                  <span class="parameters">(Mhead, RRN , Delivery Channel, Transaction Date, Product, Product Category, Search, Customer Search, No Records Found)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rrnSearch(* This field is required, * Please Select any one Option, * This field is required, * Please Select ...)">
+                  </a> <!-- rrnSearch(* This field is required, * Please Select any one Option, * This field is required, * Please Select ...) -->
+                  <span class="method-name">rrnSearch</span>
+                  <span class="parameters">(* This field is required, * Please Select any one Option, * This field is required, * Please Select any one Option, * Please Select any one Option, 018398000000, POS, 27/04/2018, NEWPRODUCTTRANSACTION, MASTER CARD PROD CATE, RRN, Card Number, Proxy Number, Card Status, Transaction Desc, Delivery Channel, Tran Amt, Tran Ccy, Billing Amt, Billing Ccy, Fee Amount, Service Tax, Surcharge Amount, CESS Amount, Response Message, 5419680120162410)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">cms.tcases.MySetUp_tc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MySetUp(Check to edit below details1, akashm@fss.co.in, Name of high school, Veer Jijau, Favorite animal, Ti...)">
+                  </a> <!-- MySetUp(Check to edit below details1, akashm@fss.co.in, Name of high school, Veer Jijau, Favorite animal, Ti...) -->
+                  <span class="method-name">MySetUp</span>
+                  <span class="parameters">(Check to edit below details1, akashm@fss.co.in, Name of high school, Veer Jijau, Favorite animal, Tiger, Check to edit below details2, local@123, sport@123, sport@123, Update)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MySetUp(Check to edit below details1, akashm@fss.co.in, Name of high school, Veer Jijau, Favorite animal, Ti...)">
+                  </a> <!-- MySetUp(Check to edit below details1, akashm@fss.co.in, Name of high school, Veer Jijau, Favorite animal, Ti...) -->
+                  <span class="method-name">MySetUp</span>
+                  <span class="parameters">(Check to edit below details1, akashm@fss.co.in, Name of high school, Veer Jijau, Favorite animal, Tiger, Check to edit below details2, local@123, sport@123, sport@123, Clear)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewMySetUp(My Setup, MySetUp, User Personal Details, User ID , Date Of Birth, From Date , To Date, User Profile...)">
+                  </a> <!-- viewMySetUp(My Setup, MySetUp, User Personal Details, User ID , Date Of Birth, From Date , To Date, User Profile...) -->
+                  <span class="method-name">viewMySetUp</span>
+                  <span class="parameters">(My Setup, MySetUp, User Personal Details, User ID , Date Of Birth, From Date , To Date, User Profile Details, User Name, Group, User Details, Change Password, Check to edit below details1, Check to edit below details2, First Security Question, Second Security Question, Email Address, First Security Answer, Second Security Answer, Old Password, New Password, Confirm New Password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">cms.tcases.KitToKit_tc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="callClose">
+                  </a> <!-- callClose -->
+                  <span class="method-name">callClose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="kittokit1(4794121200077416)">
+                  </a> <!-- kittokit1(4794121200077416) -->
+                  <span class="method-name">kittokit1</span>
+                  <span class="parameters">(4794121200077416)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="kittokit2(M2M, 4726450016003420, Kit Replacement Status, Message , Card Number, Status, Back)">
+                  </a> <!-- kittokit2(M2M, 4726450016003420, Kit Replacement Status, Message , Card Number, Status, Back) -->
+                  <span class="method-name">kittokit2</span>
+                  <span class="parameters">(M2M, 4726450016003420, Kit Replacement Status, Message , Card Number, Status, Back)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="kittokitpage1(Card, 4726450001000035, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)">
+                  </a> <!-- kittokitpage1(Card, 4726450001000035, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...) -->
+                  <span class="method-name">kittokitpage1</span>
+                  <span class="parameters">(Card, 4726450001000035, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071, Kit Replacement, Proceed, M2M, Card Number, Status, Reason, New Card Number, Proceed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">cms.tcases.Group_tc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="group(* This field is required * Alphabets only * Length between 5 and 15 , Select Atleast One BIN, Submit...)">
+                  </a> <!-- group(* This field is required * Alphabets only * Length between 5 and 15 , Select Atleast One BIN, Submit...) -->
+                  <span class="method-name">group</span>
+                  <span class="parameters">(* This field is required * Alphabets only * Length between 5 and 15 , Select Atleast One BIN, Submit, seleptpt, TECHNOLOGY, ICICI(PROCESSOR), VISA PRODUCT,   > >  , Clear)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="group(* This field is required * Alphabets only * Length between 5 and 15 , Select Atleast One BIN, Submit...)">
+                  </a> <!-- group(* This field is required * Alphabets only * Length between 5 and 15 , Select Atleast One BIN, Submit...) -->
+                  <span class="method-name">group</span>
+                  <span class="parameters">(* This field is required * Alphabets only * Length between 5 and 15 , Select Atleast One BIN, Submit, seleptpt, TECHNOLOGY, ICICI(PROCESSOR), VISA PRODUCT,   > >  , Submit)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchNewGroup(Group, selegvf)">
+                  </a> <!-- searchNewGroup(Group, selegvf) -->
+                  <span class="method-name">searchNewGroup</span>
+                  <span class="parameters">(Group, selegvf)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchNewGroup(Group, seleptpt)">
+                  </a> <!-- searchNewGroup(Group, seleptpt) -->
+                  <span class="method-name">searchNewGroup</span>
+                  <span class="parameters">(Group, seleptpt)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAlert(Group, Create New Group, seleptpt, TECHNOLOGY, ICICI(PROCESSOR), VISA PRODUCT,   &gt; &gt;  , Submit, Grou...)">
+                  </a> <!-- verifyAlert(Group, Create New Group, seleptpt, TECHNOLOGY, ICICI(PROCESSOR), VISA PRODUCT,   > >  , Submit, Grou...) -->
+                  <span class="method-name">verifyAlert</span>
+                  <span class="parameters">(Group, Create New Group, seleptpt, TECHNOLOGY, ICICI(PROCESSOR), VISA PRODUCT,   > >  , Submit, Group Name already exists)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewGroup(Group, Mhead, GrpName, status, active, Inactive, all, role, Alldrp, search, crtnewgrp, User Group Se...)">
+                  </a> <!-- viewGroup(Group, Mhead, GrpName, status, active, Inactive, all, role, Alldrp, search, crtnewgrp, User Group Se...) -->
+                  <span class="method-name">viewGroup</span>
+                  <span class="parameters">(Group, Mhead, GrpName, status, active, Inactive, all, role, Alldrp, search, crtnewgrp, User Group Search Results, Group Name, Attached Roles, Status, Owner Name, No of Users, Login Password Change Interval, View BINs	, Edit)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewNewGroup(Create New Group, NgrpName, LPCI, Srole, Sowner, SprodName, back, submit, clear)">
+                  </a> <!-- viewNewGroup(Create New Group, NgrpName, LPCI, Srole, Sowner, SprodName, back, submit, clear) -->
+                  <span class="method-name">viewNewGroup</span>
+                  <span class="parameters">(Create New Group, NgrpName, LPCI, Srole, Sowner, SprodName, back, submit, clear)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">cms.tcases.Limit_tc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Limits(Card, 4726451234001758, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)">
+                  </a> <!-- Limits(Card, 4726451234001758, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...) -->
+                  <span class="method-name">Limits</span>
+                  <span class="parameters">(Card, 4726451234001758, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071, limit, Limits, Limit Group Name – LG309, Group Name, Min Amt, Max Amt, Daily Amt, Weekly Amt, Monthly Amt, Yearly Amt, Daily Count, Weekly Count, Monthly Count, Yearly Count, LG309, Limits , Group Name -LG309, Source, Transaction, Logout Remarks)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">cms.tcases.Edit_Account_tc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditAccount(Account, Personal Details, Contact Details, ID Details, Address Details, Other Details, E-Commerce, ...)">
+                  </a> <!-- EditAccount(Account, Personal Details, Contact Details, ID Details, Address Details, Other Details, E-Commerce, ...) -->
+                  <span class="method-name">EditAccount</span>
+                  <span class="parameters">(Account, Personal Details, Contact Details, ID Details, Address Details, Other Details, E-Commerce, Card Details, Account Details, Call Log, Call Close, motherName, dob, cellNumber, homeNumber, email, address1, address2, addressThree, editCountry, editState, editCity, editZip, Save, Cancel, 5465@$#%$, asha, 2zdfcd$%^$^, 5789120140, Fgfgdgdgfd, 5789120140, $%@#%#d  , poojas@fss.co.in, *())&(()), Jogeshwari, *()**88)), malad, *())&>??:((, Borivali, NOT SELECTED, INDIA, BIHAR, BARH)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login(Card, 5789120140003122, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)">
+                  </a> <!-- Login(Card, 5789120140003122, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...) -->
+                  <span class="method-name">Login</span>
+                  <span class="parameters">(Card, 5789120140003122, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071, Account)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logout(Logout Remarks)">
+                  </a> <!-- Logout(Logout Remarks) -->
+                  <span class="method-name">Logout</span>
+                  <span class="parameters">(Logout Remarks)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">cms.tcases.FeePlan_tc</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="callClose">
+                  </a> <!-- callClose -->
+                  <span class="method-name">callClose</span>
+                  <div class="stack-trace">[ATU Custom Reporter Step Failed Exception]
+	at atu.testng.reports.listeners.ATUReportsListener.onTestSuccess(Unknown Source)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\New_Integrated_CSR_SetUp\Call_Center\ICICI_CSR.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;none&quot;&gt;
+  &lt;test name=&quot;Test&quot; parallel=&quot;none&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;cms.tcases.Login_tc&quot;/&gt;
+      &lt;class name=&quot;cms.tcases.Group_tc&quot;/&gt;
+      &lt;class name=&quot;cms.tcases.User_tc&quot;/&gt;
+      &lt;class name=&quot;cms.tcases.RRNSearch_tc&quot;/&gt;
+      &lt;class name=&quot;cms.tcases.CreateCall_tc&quot;/&gt;
+      &lt;class name=&quot;cms.tcases.Edit_Account_tc&quot;/&gt;
+      &lt;class name=&quot;cms.tcases.Card_Status_tc&quot;/&gt;
+      &lt;class name=&quot;cms.tcases.FeePlan_tc&quot;/&gt;
+      &lt;class name=&quot;cms.tcases.Limit_tc&quot;/&gt;
+      &lt;class name=&quot;cms.tcases.Services_tc&quot;/&gt;
+      &lt;class name=&quot;cms.tcases.KitToKit_tc&quot;/&gt;
+      &lt;class name=&quot;cms.tcases.Comments_tc&quot;/&gt;
+      &lt;class name=&quot;cms.tcases.MySetUp_tc&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (13 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(53);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'editfeeplan')
+data.setCell(0, 2, 'cms.tcases.FeePlan_tc')
+data.setCell(0, 3, 240862);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'add_user')
+data.setCell(1, 2, 'cms.tcases.User_tc')
+data.setCell(1, 3, 224791);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'editfeeplan')
+data.setCell(2, 2, 'cms.tcases.FeePlan_tc')
+data.setCell(2, 3, 160588);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'viewfeeplan')
+data.setCell(3, 2, 'cms.tcases.FeePlan_tc')
+data.setCell(3, 3, 71112);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'kittokit2')
+data.setCell(4, 2, 'cms.tcases.KitToKit_tc')
+data.setCell(4, 3, 66148);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyStatement')
+data.setCell(5, 2, 'cms.tcases.Services_tc')
+data.setCell(5, 3, 40087);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'EditAccount')
+data.setCell(6, 2, 'cms.tcases.Edit_Account_tc')
+data.setCell(6, 3, 36221);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'card_Status_Change')
+data.setCell(7, 2, 'cms.tcases.Card_Status_tc')
+data.setCell(7, 3, 35911);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ViewStatement')
+data.setCell(8, 2, 'cms.tcases.Services_tc')
+data.setCell(8, 3, 33433);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ViewStatement')
+data.setCell(9, 2, 'cms.tcases.Services_tc')
+data.setCell(9, 3, 33418);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ViewStatement')
+data.setCell(10, 2, 'cms.tcases.Services_tc')
+data.setCell(10, 3, 33293);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ViewStatement')
+data.setCell(11, 2, 'cms.tcases.Services_tc')
+data.setCell(11, 3, 33133);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'editfeeplan')
+data.setCell(12, 2, 'cms.tcases.FeePlan_tc')
+data.setCell(12, 3, 32646);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'editfeeplan')
+data.setCell(13, 2, 'cms.tcases.FeePlan_tc')
+data.setCell(13, 3, 32625);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'search_user')
+data.setCell(14, 2, 'cms.tcases.User_tc')
+data.setCell(14, 3, 32146);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Limits')
+data.setCell(15, 2, 'cms.tcases.Limit_tc')
+data.setCell(15, 3, 26187);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'login')
+data.setCell(16, 2, 'cms.tcases.Login_tc')
+data.setCell(16, 3, 23309);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'screenVerify')
+data.setCell(17, 2, 'cms.tcases.Card_Status_tc')
+data.setCell(17, 3, 22548);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'createCallpage1')
+data.setCell(18, 2, 'cms.tcases.CreateCall_tc')
+data.setCell(18, 3, 21978);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'comments')
+data.setCell(19, 2, 'cms.tcases.Comments_tc')
+data.setCell(19, 3, 21826);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'viewGroup')
+data.setCell(20, 2, 'cms.tcases.Group_tc')
+data.setCell(20, 3, 21758);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'kittokitpage1')
+data.setCell(21, 2, 'cms.tcases.KitToKit_tc')
+data.setCell(21, 3, 19382);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'rrnSearch')
+data.setCell(22, 2, 'cms.tcases.RRNSearch_tc')
+data.setCell(22, 3, 19300);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'rrnScreenVerify')
+data.setCell(23, 2, 'cms.tcases.RRNSearch_tc')
+data.setCell(23, 3, 19098);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'viewMySetUp')
+data.setCell(24, 2, 'cms.tcases.MySetUp_tc')
+data.setCell(24, 3, 18108);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verify_userpage1')
+data.setCell(25, 2, 'cms.tcases.User_tc')
+data.setCell(25, 3, 17166);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'callClose')
+data.setCell(26, 2, 'cms.tcases.FeePlan_tc')
+data.setCell(26, 3, 16333);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Login')
+data.setCell(27, 2, 'cms.tcases.Edit_Account_tc')
+data.setCell(27, 3, 15317);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Login')
+data.setCell(28, 2, 'cms.tcases.Services_tc')
+data.setCell(28, 3, 15056);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'group')
+data.setCell(29, 2, 'cms.tcases.Group_tc')
+data.setCell(29, 3, 13603);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'group')
+data.setCell(30, 2, 'cms.tcases.Group_tc')
+data.setCell(30, 3, 13542);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyAlert')
+data.setCell(31, 2, 'cms.tcases.Group_tc')
+data.setCell(31, 3, 9786);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'activate')
+data.setCell(32, 2, 'cms.tcases.Card_Status_tc')
+data.setCell(32, 3, 8273);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'card_Status_Change1')
+data.setCell(33, 2, 'cms.tcases.Card_Status_tc')
+data.setCell(33, 3, 5762);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verifyLink')
+data.setCell(34, 2, 'cms.tcases.Comments_tc')
+data.setCell(34, 3, 5322);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'createCall')
+data.setCell(35, 2, 'cms.tcases.CreateCall_tc')
+data.setCell(35, 3, 5127);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'searchNewGroup')
+data.setCell(36, 2, 'cms.tcases.Group_tc')
+data.setCell(36, 3, 4840);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'verify_userpage2')
+data.setCell(37, 2, 'cms.tcases.User_tc')
+data.setCell(37, 3, 4813);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'viewNewGroup')
+data.setCell(38, 2, 'cms.tcases.Group_tc')
+data.setCell(38, 3, 4744);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'searchNewGroup')
+data.setCell(39, 2, 'cms.tcases.Group_tc')
+data.setCell(39, 3, 4539);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'MySetUp')
+data.setCell(40, 2, 'cms.tcases.MySetUp_tc')
+data.setCell(40, 3, 4336);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'MySetUp')
+data.setCell(41, 2, 'cms.tcases.MySetUp_tc')
+data.setCell(41, 3, 4294);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'callClose')
+data.setCell(42, 2, 'cms.tcases.KitToKit_tc')
+data.setCell(42, 3, 3328);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'callClose')
+data.setCell(43, 2, 'cms.tcases.Card_Status_tc')
+data.setCell(43, 3, 3255);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'createCallpage2')
+data.setCell(44, 2, 'cms.tcases.CreateCall_tc')
+data.setCell(44, 3, 2465);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'Logout')
+data.setCell(45, 2, 'cms.tcases.Services_tc')
+data.setCell(45, 3, 2284);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'Logout')
+data.setCell(46, 2, 'cms.tcases.Edit_Account_tc')
+data.setCell(46, 3, 2135);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'search_user')
+data.setCell(47, 2, 'cms.tcases.User_tc')
+data.setCell(47, 3, 2067);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'logout')
+data.setCell(48, 2, 'cms.tcases.RRNSearch_tc')
+data.setCell(48, 3, 1368);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'logout')
+data.setCell(49, 2, 'cms.tcases.User_tc')
+data.setCell(49, 3, 1365);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'logout')
+data.setCell(50, 2, 'cms.tcases.MySetUp_tc')
+data.setCell(50, 3, 1278);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'logout')
+data.setCell(51, 2, 'cms.tcases.Group_tc')
+data.setCell(51, 3, 1260);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'kittokit1')
+data.setCell(52, 2, 'cms.tcases.KitToKit_tc')
+data.setCell(52, 3, 1228);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 24 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP95</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAlert(Group, Create New Group, seleptpt, TECHNOLOGY, ICICI(PROCESSOR), VISA PRODUCT,   > >  , Submit, Grou...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP86</span>
+                <span class="reporter-method-output">STEP87</span>
+                <span class="reporter-method-output">STEP88</span>
+                <span class="reporter-method-output">STEP89</span>
+                <span class="reporter-method-output">STEP90</span>
+                <span class="reporter-method-output">STEP91</span>
+                <span class="reporter-method-output">STEP92</span>
+                <span class="reporter-method-output">STEP93</span>
+                <span class="reporter-method-output">STEP94</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ViewStatement(USD A/C – 1234001773237, 2016, AUG, 2017, DEC)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP508</span>
+                <span class="reporter-method-output">STEP509</span>
+                <span class="reporter-method-output">STEP510</span>
+                <span class="reporter-method-output">STEP511</span>
+                <span class="reporter-method-output">STEP512</span>
+                <span class="reporter-method-output">STEP513</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">activate(Lost-Stolen, Activate, Activate, Please Change the card)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP392</span>
+                <span class="reporter-method-output">STEP393</span>
+                <span class="reporter-method-output">STEP394</span>
+                <span class="reporter-method-output">STEP395</span>
+                <span class="reporter-method-output">STEP396</span>
+                <span class="reporter-method-output">STEP397</span>
+                <span class="reporter-method-output">STEP398</span>
+                <span class="reporter-method-output">STEP399</span>
+                <span class="reporter-method-output">STEP400</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">screenVerify(Card, 4614610016042125, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP368</span>
+                <span class="reporter-method-output">STEP369</span>
+                <span class="reporter-method-output">STEP370</span>
+                <span class="reporter-method-output">STEP371</span>
+                <span class="reporter-method-output">STEP372</span>
+                <span class="reporter-method-output">STEP373</span>
+                <span class="reporter-method-output">STEP374</span>
+                <span class="reporter-method-output">STEP375</span>
+                <span class="reporter-method-output">STEP376</span>
+                <span class="reporter-method-output">STEP377</span>
+                <span class="reporter-method-output">STEP378</span>
+                <span class="reporter-method-output">STEP379</span>
+                <span class="reporter-method-output">STEP380</span>
+                <span class="reporter-method-output">STEP381</span>
+                <span class="reporter-method-output">STEP382</span>
+                <span class="reporter-method-output">STEP383</span>
+                <span class="reporter-method-output">STEP384</span>
+                <span class="reporter-method-output">STEP385</span>
+                <span class="reporter-method-output">STEP386</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">callClose</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP422</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">group(* This field is required * Alphabets only * Length between 5 and 15 , Select Atleast One BIN, Submit...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP58</span>
+                <span class="reporter-method-output">STEP59</span>
+                <span class="reporter-method-output">STEP60</span>
+                <span class="reporter-method-output">STEP61</span>
+                <span class="reporter-method-output">STEP62</span>
+                <span class="reporter-method-output">STEP63</span>
+                <span class="reporter-method-output">STEP64</span>
+                <span class="reporter-method-output">STEP65</span>
+                <span class="reporter-method-output">STEP66</span>
+                <span class="reporter-method-output">STEP67</span>
+                <span class="reporter-method-output">STEP68</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">search_user(User, Akashbg, Akash, Activate, ACTIVE, SUSPENDED, LOCKED, EXPIRED)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP151</span>
+                <span class="reporter-method-output">STEP152</span>
+                <span class="reporter-method-output">STEP153</span>
+                <span class="reporter-method-output">STEP154</span>
+                <span class="reporter-method-output">STEP155</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">viewNewGroup(Create New Group, NgrpName, LPCI, Srole, Sowner, SprodName, back, submit, clear)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP49</span>
+                <span class="reporter-method-output">STEP50</span>
+                <span class="reporter-method-output">STEP51</span>
+                <span class="reporter-method-output">STEP52</span>
+                <span class="reporter-method-output">STEP53</span>
+                <span class="reporter-method-output">STEP54</span>
+                <span class="reporter-method-output">STEP55</span>
+                <span class="reporter-method-output">STEP56</span>
+                <span class="reporter-method-output">STEP57</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">group(* This field is required * Alphabets only * Length between 5 and 15 , Select Atleast One BIN, Submit...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP69</span>
+                <span class="reporter-method-output">STEP70</span>
+                <span class="reporter-method-output">STEP71</span>
+                <span class="reporter-method-output">STEP72</span>
+                <span class="reporter-method-output">STEP73</span>
+                <span class="reporter-method-output">STEP74</span>
+                <span class="reporter-method-output">STEP75</span>
+                <span class="reporter-method-output">STEP76</span>
+                <span class="reporter-method-output">STEP77</span>
+                <span class="reporter-method-output">STEP78</span>
+                <span class="reporter-method-output">STEP79</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VerifyStatement(Services, accountNo, year, month, ToYear, ToMonth, View Statement, E-mail Statement, USD A/C – 12340...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP469</span>
+                <span class="reporter-method-output">STEP470</span>
+                <span class="reporter-method-output">STEP471</span>
+                <span class="reporter-method-output">STEP472</span>
+                <span class="reporter-method-output">STEP473</span>
+                <span class="reporter-method-output">STEP474</span>
+                <span class="reporter-method-output">STEP475</span>
+                <span class="reporter-method-output">STEP476</span>
+                <span class="reporter-method-output">STEP477</span>
+                <span class="reporter-method-output">STEP478</span>
+                <span class="reporter-method-output">STEP479</span>
+                <span class="reporter-method-output">STEP480</span>
+                <span class="reporter-method-output">STEP481</span>
+                <span class="reporter-method-output">STEP482</span>
+                <span class="reporter-method-output">STEP483</span>
+                <span class="reporter-method-output">STEP484</span>
+                <span class="reporter-method-output">STEP485</span>
+                <span class="reporter-method-output">STEP486</span>
+                <span class="reporter-method-output">STEP487</span>
+                <span class="reporter-method-output">STEP488</span>
+                <span class="reporter-method-output">STEP489</span>
+                <span class="reporter-method-output">STEP490</span>
+                <span class="reporter-method-output">STEP491</span>
+                <span class="reporter-method-output">STEP492</span>
+                <span class="reporter-method-output">STEP493</span>
+                <span class="reporter-method-output">STEP494</span>
+                <span class="reporter-method-output">STEP495</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP156</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_userpage1(User, User, Create New User, UserId :, User Name :, Status :, Search , UserId, User Name, Status, Gr...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP96</span>
+                <span class="reporter-method-output">STEP97</span>
+                <span class="reporter-method-output">STEP98</span>
+                <span class="reporter-method-output">STEP99</span>
+                <span class="reporter-method-output">STEP100</span>
+                <span class="reporter-method-output">STEP101</span>
+                <span class="reporter-method-output">STEP102</span>
+                <span class="reporter-method-output">STEP103</span>
+                <span class="reporter-method-output">STEP104</span>
+                <span class="reporter-method-output">STEP105</span>
+                <span class="reporter-method-output">STEP106</span>
+                <span class="reporter-method-output">STEP107</span>
+                <span class="reporter-method-output">STEP108</span>
+                <span class="reporter-method-output">STEP109</span>
+                <span class="reporter-method-output">STEP110</span>
+                <span class="reporter-method-output">STEP111</span>
+                <span class="reporter-method-output">STEP112</span>
+                <span class="reporter-method-output">STEP113</span>
+                <span class="reporter-method-output">STEP114</span>
+                <span class="reporter-method-output">STEP115</span>
+                <span class="reporter-method-output">STEP116</span>
+                <span class="reporter-method-output">STEP117</span>
+                <span class="reporter-method-output">STEP118</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Logout(Logout Remarks)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP365</span>
+                <span class="reporter-method-output">STEP366</span>
+                <span class="reporter-method-output">STEP367</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_userpage2(Create New User, User Personal Details, Contact Information, User Profile Details, User Authorizatio...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP119</span>
+                <span class="reporter-method-output">STEP120</span>
+                <span class="reporter-method-output">STEP121</span>
+                <span class="reporter-method-output">STEP122</span>
+                <span class="reporter-method-output">STEP123</span>
+                <span class="reporter-method-output">STEP124</span>
+                <span class="reporter-method-output">STEP125</span>
+                <span class="reporter-method-output">STEP126</span>
+                <span class="reporter-method-output">STEP127</span>
+                <span class="reporter-method-output">STEP128</span>
+                <span class="reporter-method-output">STEP129</span>
+                <span class="reporter-method-output">STEP130</span>
+                <span class="reporter-method-output">STEP131</span>
+                <span class="reporter-method-output">STEP132</span>
+                <span class="reporter-method-output">STEP133</span>
+                <span class="reporter-method-output">STEP134</span>
+                <span class="reporter-method-output">STEP135</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">callClose</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP556</span>
+                <span class="reporter-method-output">STEP557</span>
+                <span class="reporter-method-output">STEP558</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">search_user(User, AAKSHM, Akash, Activate, ACTIVE, SUSPENDED, LOCKED, EXPIRED)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP146</span>
+                <span class="reporter-method-output">STEP147</span>
+                <span class="reporter-method-output">STEP148</span>
+                <span class="reporter-method-output">STEP149</span>
+                <span class="reporter-method-output">STEP150</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login(Card, 4726451234004059, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP457</span>
+                <span class="reporter-method-output">STEP458</span>
+                <span class="reporter-method-output">STEP459</span>
+                <span class="reporter-method-output">STEP460</span>
+                <span class="reporter-method-output">STEP461</span>
+                <span class="reporter-method-output">STEP462</span>
+                <span class="reporter-method-output">STEP463</span>
+                <span class="reporter-method-output">STEP464</span>
+                <span class="reporter-method-output">STEP465</span>
+                <span class="reporter-method-output">STEP466</span>
+                <span class="reporter-method-output">STEP467</span>
+                <span class="reporter-method-output">STEP468</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ViewStatement(USD A/C – 1234001773237, 2018, JUN, 2018, FEB)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP496</span>
+                <span class="reporter-method-output">STEP497</span>
+                <span class="reporter-method-output">STEP498</span>
+                <span class="reporter-method-output">STEP499</span>
+                <span class="reporter-method-output">STEP500</span>
+                <span class="reporter-method-output">STEP501</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP196</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">MySetUp(Check to edit below details1, akashm@fss.co.in, Name of high school, Veer Jijau, Favorite animal, Ti...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP624</span>
+                <span class="reporter-method-output">STEP625</span>
+                <span class="reporter-method-output">STEP626</span>
+                <span class="reporter-method-output">STEP627</span>
+                <span class="reporter-method-output">STEP628</span>
+                <span class="reporter-method-output">STEP629</span>
+                <span class="reporter-method-output">STEP630</span>
+                <span class="reporter-method-output">STEP631</span>
+                <span class="reporter-method-output">STEP632</span>
+                <span class="reporter-method-output">STEP633</span>
+                <span class="reporter-method-output">STEP634</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">rrnScreenVerify(Mhead, RRN , Delivery Channel, Transaction Date, Product, Product Category, Search, Customer Search,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP157</span>
+                <span class="reporter-method-output">STEP158</span>
+                <span class="reporter-method-output">STEP159</span>
+                <span class="reporter-method-output">STEP160</span>
+                <span class="reporter-method-output">STEP161</span>
+                <span class="reporter-method-output">STEP162</span>
+                <span class="reporter-method-output">STEP163</span>
+                <span class="reporter-method-output">STEP164</span>
+                <span class="reporter-method-output">STEP165</span>
+                <span class="reporter-method-output">STEP166</span>
+                <span class="reporter-method-output">STEP167</span>
+                <span class="reporter-method-output">STEP168</span>
+                <span class="reporter-method-output">STEP169</span>
+                <span class="reporter-method-output">STEP170</span>
+                <span class="reporter-method-output">STEP171</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">callClose</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP406</span>
+                <span class="reporter-method-output">STEP407</span>
+                <span class="reporter-method-output">STEP408</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createCall</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP243</span>
+                <span class="reporter-method-output">STEP244</span>
+                <span class="reporter-method-output">STEP245</span>
+                <span class="reporter-method-output">STEP246</span>
+                <span class="reporter-method-output">STEP247</span>
+                <span class="reporter-method-output">STEP248</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">kittokit1(4794121200077416)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP544</span>
+                <span class="reporter-method-output">STEP545</span>
+                <span class="reporter-method-output">STEP546</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Limits(Card, 4726451234001758, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP423</span>
+                <span class="reporter-method-output">STEP424</span>
+                <span class="reporter-method-output">STEP425</span>
+                <span class="reporter-method-output">STEP426</span>
+                <span class="reporter-method-output">STEP427</span>
+                <span class="reporter-method-output">STEP428</span>
+                <span class="reporter-method-output">STEP429</span>
+                <span class="reporter-method-output">STEP430</span>
+                <span class="reporter-method-output">STEP431</span>
+                <span class="reporter-method-output">STEP432</span>
+                <span class="reporter-method-output">STEP433</span>
+                <span class="reporter-method-output">STEP434</span>
+                <span class="reporter-method-output">STEP435</span>
+                <span class="reporter-method-output">STEP436</span>
+                <span class="reporter-method-output">STEP437</span>
+                <span class="reporter-method-output">STEP438</span>
+                <span class="reporter-method-output">STEP439</span>
+                <span class="reporter-method-output">STEP440</span>
+                <span class="reporter-method-output">STEP441</span>
+                <span class="reporter-method-output">STEP442</span>
+                <span class="reporter-method-output">STEP443</span>
+                <span class="reporter-method-output">STEP444</span>
+                <span class="reporter-method-output">STEP445</span>
+                <span class="reporter-method-output">STEP446</span>
+                <span class="reporter-method-output">STEP447</span>
+                <span class="reporter-method-output">STEP448</span>
+                <span class="reporter-method-output">STEP449</span>
+                <span class="reporter-method-output">STEP450</span>
+                <span class="reporter-method-output">STEP451</span>
+                <span class="reporter-method-output">STEP452</span>
+                <span class="reporter-method-output">STEP453</span>
+                <span class="reporter-method-output">STEP454</span>
+                <span class="reporter-method-output">STEP455</span>
+                <span class="reporter-method-output">STEP456</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">EditAccount(Account, Personal Details, Contact Details, ID Details, Address Details, Other Details, E-Commerce, ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP260</span>
+                <span class="reporter-method-output">STEP261</span>
+                <span class="reporter-method-output">STEP262</span>
+                <span class="reporter-method-output">STEP263</span>
+                <span class="reporter-method-output">STEP264</span>
+                <span class="reporter-method-output">STEP265</span>
+                <span class="reporter-method-output">STEP266</span>
+                <span class="reporter-method-output">STEP267</span>
+                <span class="reporter-method-output">STEP268</span>
+                <span class="reporter-method-output">STEP269</span>
+                <span class="reporter-method-output">STEP270</span>
+                <span class="reporter-method-output">STEP271</span>
+                <span class="reporter-method-output">STEP272</span>
+                <span class="reporter-method-output">STEP273</span>
+                <span class="reporter-method-output">STEP274</span>
+                <span class="reporter-method-output">STEP275</span>
+                <span class="reporter-method-output">STEP276</span>
+                <span class="reporter-method-output">STEP277</span>
+                <span class="reporter-method-output">STEP278</span>
+                <span class="reporter-method-output">STEP279</span>
+                <span class="reporter-method-output">STEP280</span>
+                <span class="reporter-method-output">STEP281</span>
+                <span class="reporter-method-output">STEP282</span>
+                <span class="reporter-method-output">STEP283</span>
+                <span class="reporter-method-output">STEP284</span>
+                <span class="reporter-method-output">STEP285</span>
+                <span class="reporter-method-output">STEP286</span>
+                <span class="reporter-method-output">STEP287</span>
+                <span class="reporter-method-output">STEP288</span>
+                <span class="reporter-method-output">STEP289</span>
+                <span class="reporter-method-output">STEP290</span>
+                <span class="reporter-method-output">STEP291</span>
+                <span class="reporter-method-output">STEP292</span>
+                <span class="reporter-method-output">STEP293</span>
+                <span class="reporter-method-output">STEP294</span>
+                <span class="reporter-method-output">STEP295</span>
+                <span class="reporter-method-output">STEP296</span>
+                <span class="reporter-method-output">STEP297</span>
+                <span class="reporter-method-output">STEP298</span>
+                <span class="reporter-method-output">STEP299</span>
+                <span class="reporter-method-output">STEP300</span>
+                <span class="reporter-method-output">STEP301</span>
+                <span class="reporter-method-output">STEP302</span>
+                <span class="reporter-method-output">STEP303</span>
+                <span class="reporter-method-output">STEP304</span>
+                <span class="reporter-method-output">STEP305</span>
+                <span class="reporter-method-output">STEP306</span>
+                <span class="reporter-method-output">STEP307</span>
+                <span class="reporter-method-output">STEP308</span>
+                <span class="reporter-method-output">STEP309</span>
+                <span class="reporter-method-output">STEP310</span>
+                <span class="reporter-method-output">STEP311</span>
+                <span class="reporter-method-output">STEP312</span>
+                <span class="reporter-method-output">STEP313</span>
+                <span class="reporter-method-output">STEP314</span>
+                <span class="reporter-method-output">STEP315</span>
+                <span class="reporter-method-output">STEP316</span>
+                <span class="reporter-method-output">STEP317</span>
+                <span class="reporter-method-output">STEP318</span>
+                <span class="reporter-method-output">STEP319</span>
+                <span class="reporter-method-output">STEP320</span>
+                <span class="reporter-method-output">STEP321</span>
+                <span class="reporter-method-output">STEP322</span>
+                <span class="reporter-method-output">STEP323</span>
+                <span class="reporter-method-output">STEP324</span>
+                <span class="reporter-method-output">STEP325</span>
+                <span class="reporter-method-output">STEP326</span>
+                <span class="reporter-method-output">STEP327</span>
+                <span class="reporter-method-output">STEP328</span>
+                <span class="reporter-method-output">STEP329</span>
+                <span class="reporter-method-output">STEP330</span>
+                <span class="reporter-method-output">STEP331</span>
+                <span class="reporter-method-output">STEP332</span>
+                <span class="reporter-method-output">STEP333</span>
+                <span class="reporter-method-output">STEP334</span>
+                <span class="reporter-method-output">STEP335</span>
+                <span class="reporter-method-output">STEP336</span>
+                <span class="reporter-method-output">STEP337</span>
+                <span class="reporter-method-output">STEP338</span>
+                <span class="reporter-method-output">STEP339</span>
+                <span class="reporter-method-output">STEP340</span>
+                <span class="reporter-method-output">STEP341</span>
+                <span class="reporter-method-output">STEP342</span>
+                <span class="reporter-method-output">STEP343</span>
+                <span class="reporter-method-output">STEP344</span>
+                <span class="reporter-method-output">STEP345</span>
+                <span class="reporter-method-output">STEP346</span>
+                <span class="reporter-method-output">STEP347</span>
+                <span class="reporter-method-output">STEP348</span>
+                <span class="reporter-method-output">STEP349</span>
+                <span class="reporter-method-output">STEP350</span>
+                <span class="reporter-method-output">STEP351</span>
+                <span class="reporter-method-output">STEP352</span>
+                <span class="reporter-method-output">STEP353</span>
+                <span class="reporter-method-output">STEP354</span>
+                <span class="reporter-method-output">STEP355</span>
+                <span class="reporter-method-output">STEP356</span>
+                <span class="reporter-method-output">STEP357</span>
+                <span class="reporter-method-output">STEP358</span>
+                <span class="reporter-method-output">STEP359</span>
+                <span class="reporter-method-output">STEP360</span>
+                <span class="reporter-method-output">STEP361</span>
+                <span class="reporter-method-output">STEP362</span>
+                <span class="reporter-method-output">STEP363</span>
+                <span class="reporter-method-output">STEP364</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">card_Status_Change1(Lost-Stolen, Lost-Stolen, Activate, Please Change the card)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP401</span>
+                <span class="reporter-method-output">STEP402</span>
+                <span class="reporter-method-output">STEP403</span>
+                <span class="reporter-method-output">STEP404</span>
+                <span class="reporter-method-output">STEP405</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">viewGroup(Group, Mhead, GrpName, status, active, Inactive, all, role, Alldrp, search, crtnewgrp, User Group Se...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP25</span>
+                <span class="reporter-method-output">STEP26</span>
+                <span class="reporter-method-output">STEP27</span>
+                <span class="reporter-method-output">STEP28</span>
+                <span class="reporter-method-output">STEP29</span>
+                <span class="reporter-method-output">STEP30</span>
+                <span class="reporter-method-output">STEP31</span>
+                <span class="reporter-method-output">STEP32</span>
+                <span class="reporter-method-output">STEP33</span>
+                <span class="reporter-method-output">STEP34</span>
+                <span class="reporter-method-output">STEP35</span>
+                <span class="reporter-method-output">STEP36</span>
+                <span class="reporter-method-output">STEP37</span>
+                <span class="reporter-method-output">STEP38</span>
+                <span class="reporter-method-output">STEP39</span>
+                <span class="reporter-method-output">STEP40</span>
+                <span class="reporter-method-output">STEP41</span>
+                <span class="reporter-method-output">STEP42</span>
+                <span class="reporter-method-output">STEP43</span>
+                <span class="reporter-method-output">STEP44</span>
+                <span class="reporter-method-output">STEP45</span>
+                <span class="reporter-method-output">STEP46</span>
+                <span class="reporter-method-output">STEP47</span>
+                <span class="reporter-method-output">STEP48</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchNewGroup(Group, selegvf)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP83</span>
+                <span class="reporter-method-output">STEP84</span>
+                <span class="reporter-method-output">STEP85</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Logout(Logout Remarks)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP520</span>
+                <span class="reporter-method-output">STEP521</span>
+                <span class="reporter-method-output">STEP522</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">kittokit2(M2M, 4726450016003420, Kit Replacement Status, Message , Card Number, Status, Back)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP547</span>
+                <span class="reporter-method-output">STEP548</span>
+                <span class="reporter-method-output">STEP549</span>
+                <span class="reporter-method-output">STEP550</span>
+                <span class="reporter-method-output">STEP551</span>
+                <span class="reporter-method-output">STEP552</span>
+                <span class="reporter-method-output">STEP553</span>
+                <span class="reporter-method-output">STEP554</span>
+                <span class="reporter-method-output">STEP555</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP580</span>
+                <span class="reporter-method-output">STEP581</span>
+                <span class="reporter-method-output">STEP582</span>
+                <span class="reporter-method-output">STEP583</span>
+                <span class="reporter-method-output">STEP584</span>
+                <span class="reporter-method-output">STEP585</span>
+                <span class="reporter-method-output">STEP586</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login(Card, 5789120140003122, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP249</span>
+                <span class="reporter-method-output">STEP250</span>
+                <span class="reporter-method-output">STEP251</span>
+                <span class="reporter-method-output">STEP252</span>
+                <span class="reporter-method-output">STEP253</span>
+                <span class="reporter-method-output">STEP254</span>
+                <span class="reporter-method-output">STEP255</span>
+                <span class="reporter-method-output">STEP256</span>
+                <span class="reporter-method-output">STEP257</span>
+                <span class="reporter-method-output">STEP258</span>
+                <span class="reporter-method-output">STEP259</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">rrnSearch(* This field is required, * Please Select any one Option, * This field is required, * Please Select ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP172</span>
+                <span class="reporter-method-output">STEP173</span>
+                <span class="reporter-method-output">STEP174</span>
+                <span class="reporter-method-output">STEP175</span>
+                <span class="reporter-method-output">STEP176</span>
+                <span class="reporter-method-output">STEP177</span>
+                <span class="reporter-method-output">STEP178</span>
+                <span class="reporter-method-output">STEP179</span>
+                <span class="reporter-method-output">STEP180</span>
+                <span class="reporter-method-output">STEP181</span>
+                <span class="reporter-method-output">STEP182</span>
+                <span class="reporter-method-output">STEP183</span>
+                <span class="reporter-method-output">STEP184</span>
+                <span class="reporter-method-output">STEP185</span>
+                <span class="reporter-method-output">STEP186</span>
+                <span class="reporter-method-output">STEP187</span>
+                <span class="reporter-method-output">STEP188</span>
+                <span class="reporter-method-output">STEP189</span>
+                <span class="reporter-method-output">STEP190</span>
+                <span class="reporter-method-output">STEP191</span>
+                <span class="reporter-method-output">STEP192</span>
+                <span class="reporter-method-output">STEP193</span>
+                <span class="reporter-method-output">STEP194</span>
+                <span class="reporter-method-output">STEP195</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchNewGroup(Group, seleptpt)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP80</span>
+                <span class="reporter-method-output">STEP81</span>
+                <span class="reporter-method-output">STEP82</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">comments(Card, 4614610016042125, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP559</span>
+                <span class="reporter-method-output">STEP560</span>
+                <span class="reporter-method-output">STEP561</span>
+                <span class="reporter-method-output">STEP562</span>
+                <span class="reporter-method-output">STEP563</span>
+                <span class="reporter-method-output">STEP564</span>
+                <span class="reporter-method-output">STEP565</span>
+                <span class="reporter-method-output">STEP566</span>
+                <span class="reporter-method-output">STEP567</span>
+                <span class="reporter-method-output">STEP568</span>
+                <span class="reporter-method-output">STEP569</span>
+                <span class="reporter-method-output">STEP570</span>
+                <span class="reporter-method-output">STEP571</span>
+                <span class="reporter-method-output">STEP572</span>
+                <span class="reporter-method-output">STEP573</span>
+                <span class="reporter-method-output">STEP574</span>
+                <span class="reporter-method-output">STEP575</span>
+                <span class="reporter-method-output">STEP576</span>
+                <span class="reporter-method-output">STEP577</span>
+                <span class="reporter-method-output">STEP578</span>
+                <span class="reporter-method-output">STEP579</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createCallpage2(Customer Verification, Verify at Least Two Fields, DOB, Expiry Date, Mothers Maiden Name, Last Five ...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP235</span>
+                <span class="reporter-method-output">STEP236</span>
+                <span class="reporter-method-output">STEP237</span>
+                <span class="reporter-method-output">STEP238</span>
+                <span class="reporter-method-output">STEP239</span>
+                <span class="reporter-method-output">STEP240</span>
+                <span class="reporter-method-output">STEP241</span>
+                <span class="reporter-method-output">STEP242</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ViewStatement(USD A/C – 1234001773237, 2017, JUL, 2017, JUN)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP514</span>
+                <span class="reporter-method-output">STEP515</span>
+                <span class="reporter-method-output">STEP516</span>
+                <span class="reporter-method-output">STEP517</span>
+                <span class="reporter-method-output">STEP518</span>
+                <span class="reporter-method-output">STEP519</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createCallpage1(Account, 4726450012000982, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 1234000000...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP197</span>
+                <span class="reporter-method-output">STEP198</span>
+                <span class="reporter-method-output">STEP199</span>
+                <span class="reporter-method-output">STEP200</span>
+                <span class="reporter-method-output">STEP201</span>
+                <span class="reporter-method-output">STEP202</span>
+                <span class="reporter-method-output">STEP203</span>
+                <span class="reporter-method-output">STEP204</span>
+                <span class="reporter-method-output">STEP205</span>
+                <span class="reporter-method-output">STEP206</span>
+                <span class="reporter-method-output">STEP207</span>
+                <span class="reporter-method-output">STEP208</span>
+                <span class="reporter-method-output">STEP209</span>
+                <span class="reporter-method-output">STEP210</span>
+                <span class="reporter-method-output">STEP211</span>
+                <span class="reporter-method-output">STEP212</span>
+                <span class="reporter-method-output">STEP213</span>
+                <span class="reporter-method-output">STEP214</span>
+                <span class="reporter-method-output">STEP215</span>
+                <span class="reporter-method-output">STEP216</span>
+                <span class="reporter-method-output">STEP217</span>
+                <span class="reporter-method-output">STEP218</span>
+                <span class="reporter-method-output">STEP219</span>
+                <span class="reporter-method-output">STEP220</span>
+                <span class="reporter-method-output">STEP221</span>
+                <span class="reporter-method-output">STEP222</span>
+                <span class="reporter-method-output">STEP223</span>
+                <span class="reporter-method-output">STEP224</span>
+                <span class="reporter-method-output">STEP225</span>
+                <span class="reporter-method-output">STEP226</span>
+                <span class="reporter-method-output">STEP227</span>
+                <span class="reporter-method-output">STEP228</span>
+                <span class="reporter-method-output">STEP229</span>
+                <span class="reporter-method-output">STEP230</span>
+                <span class="reporter-method-output">STEP231</span>
+                <span class="reporter-method-output">STEP232</span>
+                <span class="reporter-method-output">STEP233</span>
+                <span class="reporter-method-output">STEP234</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">add_user(Akastpt, Akash, 9865986598, akashhh@fss.co, CMSGRPS, No, Submit)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP136</span>
+                <span class="reporter-method-output">STEP137</span>
+                <span class="reporter-method-output">STEP138</span>
+                <span class="reporter-method-output">STEP139</span>
+                <span class="reporter-method-output">STEP140</span>
+                <span class="reporter-method-output">STEP141</span>
+                <span class="reporter-method-output">STEP142</span>
+                <span class="reporter-method-output">STEP143</span>
+                <span class="reporter-method-output">STEP144</span>
+                <span class="reporter-method-output">STEP145</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">card_Status_Change(Activate, Lost-Stolen, Activate, Please Change the card)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP387</span>
+                <span class="reporter-method-output">STEP388</span>
+                <span class="reporter-method-output">STEP389</span>
+                <span class="reporter-method-output">STEP390</span>
+                <span class="reporter-method-output">STEP391</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">kittokitpage1(Card, 4726450001000035, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP523</span>
+                <span class="reporter-method-output">STEP524</span>
+                <span class="reporter-method-output">STEP525</span>
+                <span class="reporter-method-output">STEP526</span>
+                <span class="reporter-method-output">STEP527</span>
+                <span class="reporter-method-output">STEP528</span>
+                <span class="reporter-method-output">STEP529</span>
+                <span class="reporter-method-output">STEP530</span>
+                <span class="reporter-method-output">STEP531</span>
+                <span class="reporter-method-output">STEP532</span>
+                <span class="reporter-method-output">STEP533</span>
+                <span class="reporter-method-output">STEP534</span>
+                <span class="reporter-method-output">STEP535</span>
+                <span class="reporter-method-output">STEP536</span>
+                <span class="reporter-method-output">STEP537</span>
+                <span class="reporter-method-output">STEP538</span>
+                <span class="reporter-method-output">STEP539</span>
+                <span class="reporter-method-output">STEP540</span>
+                <span class="reporter-method-output">STEP541</span>
+                <span class="reporter-method-output">STEP542</span>
+                <span class="reporter-method-output">STEP543</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">MySetUp(Check to edit below details1, akashm@fss.co.in, Name of high school, Veer Jijau, Favorite animal, Ti...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP613</span>
+                <span class="reporter-method-output">STEP614</span>
+                <span class="reporter-method-output">STEP615</span>
+                <span class="reporter-method-output">STEP616</span>
+                <span class="reporter-method-output">STEP617</span>
+                <span class="reporter-method-output">STEP618</span>
+                <span class="reporter-method-output">STEP619</span>
+                <span class="reporter-method-output">STEP620</span>
+                <span class="reporter-method-output">STEP621</span>
+                <span class="reporter-method-output">STEP622</span>
+                <span class="reporter-method-output">STEP623</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">viewMySetUp(My Setup, MySetUp, User Personal Details, User ID , Date Of Birth, From Date , To Date, User Profile...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP587</span>
+                <span class="reporter-method-output">STEP588</span>
+                <span class="reporter-method-output">STEP589</span>
+                <span class="reporter-method-output">STEP590</span>
+                <span class="reporter-method-output">STEP591</span>
+                <span class="reporter-method-output">STEP592</span>
+                <span class="reporter-method-output">STEP593</span>
+                <span class="reporter-method-output">STEP594</span>
+                <span class="reporter-method-output">STEP595</span>
+                <span class="reporter-method-output">STEP596</span>
+                <span class="reporter-method-output">STEP597</span>
+                <span class="reporter-method-output">STEP598</span>
+                <span class="reporter-method-output">STEP599</span>
+                <span class="reporter-method-output">STEP600</span>
+                <span class="reporter-method-output">STEP601</span>
+                <span class="reporter-method-output">STEP602</span>
+                <span class="reporter-method-output">STEP603</span>
+                <span class="reporter-method-output">STEP604</span>
+                <span class="reporter-method-output">STEP605</span>
+                <span class="reporter-method-output">STEP606</span>
+                <span class="reporter-method-output">STEP607</span>
+                <span class="reporter-method-output">STEP608</span>
+                <span class="reporter-method-output">STEP609</span>
+                <span class="reporter-method-output">STEP610</span>
+                <span class="reporter-method-output">STEP611</span>
+                <span class="reporter-method-output">STEP612</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login(Call Center, Card, Account, First Name, Last Name, Date Of Birth, Email Address, ID Number, Online U...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP1</span>
+                <span class="reporter-method-output">STEP2</span>
+                <span class="reporter-method-output">STEP3</span>
+                <span class="reporter-method-output">STEP4</span>
+                <span class="reporter-method-output">STEP5</span>
+                <span class="reporter-method-output">STEP6</span>
+                <span class="reporter-method-output">STEP7</span>
+                <span class="reporter-method-output">STEP8</span>
+                <span class="reporter-method-output">STEP9</span>
+                <span class="reporter-method-output">STEP10</span>
+                <span class="reporter-method-output">STEP11</span>
+                <span class="reporter-method-output">STEP12</span>
+                <span class="reporter-method-output">STEP13</span>
+                <span class="reporter-method-output">STEP14</span>
+                <span class="reporter-method-output">STEP15</span>
+                <span class="reporter-method-output">STEP16</span>
+                <span class="reporter-method-output">STEP17</span>
+                <span class="reporter-method-output">STEP18</span>
+                <span class="reporter-method-output">STEP19</span>
+                <span class="reporter-method-output">STEP20</span>
+                <span class="reporter-method-output">STEP21</span>
+                <span class="reporter-method-output">STEP22</span>
+                <span class="reporter-method-output">STEP23</span>
+                <span class="reporter-method-output">STEP24</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP635</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ViewStatement(USD A/C – 1234001773237, 2018, AUG, 2017, DEC)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP502</span>
+                <span class="reporter-method-output">STEP503</span>
+                <span class="reporter-method-output">STEP504</span>
+                <span class="reporter-method-output">STEP505</span>
+                <span class="reporter-method-output">STEP506</span>
+                <span class="reporter-method-output">STEP507</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editfeeplan(IVR FEE PLAN, Fee Plan Selected)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP420</span>
+                <span class="reporter-method-output">STEP421</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">viewfeeplan(Card, 4726450012000982, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP409</span>
+                <span class="reporter-method-output">STEP410</span>
+                <span class="reporter-method-output">STEP411</span>
+                <span class="reporter-method-output">STEP412</span>
+                <span class="reporter-method-output">STEP413</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editfeeplan(TOP UP FEE PLAN, Fee Plan Selected)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP414</span>
+                <span class="reporter-method-output">STEP415</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editfeeplan(POSPURCHASEFEE, Fee Plan Selected)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP418</span>
+                <span class="reporter-method-output">STEP419</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editfeeplan(TRAN FEE PLAN, Fee Plan Selected)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">STEP416</span>
+                <span class="reporter-method-output">STEP417</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">cms.tcases.Login_tc</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login(Call Center, Card, Account, First Name, Last Name, Date Of Birth, Email Address, ID Number, Online U...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cms.tcases.Group_tc</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">viewGroup(Group, Mhead, GrpName, status, active, Inactive, all, role, Alldrp, search, crtnewgrp, User Group Se...)</span>
+                <span class="method-start">23338 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">viewNewGroup(Create New Group, NgrpName, LPCI, Srole, Sowner, SprodName, back, submit, clear)</span>
+                <span class="method-start">45122 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">group(* This field is required * Alphabets only * Length between 5 and 15 , Select Atleast One BIN, Submit...)</span>
+                <span class="method-start">49883 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">group(* This field is required * Alphabets only * Length between 5 and 15 , Select Atleast One BIN, Submit...)</span>
+                <span class="method-start">63429 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchNewGroup(Group, seleptpt)</span>
+                <span class="method-start">77049 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchNewGroup(Group, selegvf)</span>
+                <span class="method-start">81592 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAlert(Group, Create New Group, seleptpt, TECHNOLOGY, ICICI(PROCESSOR), VISA PRODUCT,   > >  , Submit, Grou...)</span>
+                <span class="method-start">86448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">96236 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cms.tcases.User_tc</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verify_userpage1(User, User, Create New User, UserId :, User Name :, Status :, Search , UserId, User Name, Status, Gr...)</span>
+                <span class="method-start">97505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_userpage2(Create New User, User Personal Details, Contact Information, User Profile Details, User Authorizatio...)</span>
+                <span class="method-start">114680 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">add_user(Akastpt, Akash, 9865986598, akashhh@fss.co, CMSGRPS, No, Submit)</span>
+                <span class="method-start">119501 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">search_user(User, AAKSHM, Akash, Activate, ACTIVE, SUSPENDED, LOCKED, EXPIRED)</span>
+                <span class="method-start">344302 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">search_user(User, Akashbg, Akash, Activate, ACTIVE, SUSPENDED, LOCKED, EXPIRED)</span>
+                <span class="method-start">376449 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">378518 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cms.tcases.RRNSearch_tc</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">rrnScreenVerify(Mhead, RRN , Delivery Channel, Transaction Date, Product, Product Category, Search, Customer Search,...)</span>
+                <span class="method-start">379886 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">rrnSearch(* This field is required, * Please Select any one Option, * This field is required, * Please Select ...)</span>
+                <span class="method-start">398995 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">418299 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cms.tcases.CreateCall_tc</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createCallpage1(Account, 4726450012000982, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 1234000000...)</span>
+                <span class="method-start">419675 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createCallpage2(Customer Verification, Verify at Least Two Fields, DOB, Expiry Date, Mothers Maiden Name, Last Five ...)</span>
+                <span class="method-start">441661 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createCall</span>
+                <span class="method-start">444127 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cms.tcases.Edit_Account_tc</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Login(Card, 5789120140003122, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</span>
+                <span class="method-start">449259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EditAccount(Account, Personal Details, Contact Details, ID Details, Address Details, Other Details, E-Commerce, ...)</span>
+                <span class="method-start">464584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Logout(Logout Remarks)</span>
+                <span class="method-start">500810 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cms.tcases.Card_Status_tc</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">screenVerify(Card, 4614610016042125, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</span>
+                <span class="method-start">502949 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">card_Status_Change(Activate, Lost-Stolen, Activate, Please Change the card)</span>
+                <span class="method-start">525501 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">activate(Lost-Stolen, Activate, Activate, Please Change the card)</span>
+                <span class="method-start">561417 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">card_Status_Change1(Lost-Stolen, Lost-Stolen, Activate, Please Change the card)</span>
+                <span class="method-start">569695 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callClose</span>
+                <span class="method-start">575459 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cms.tcases.FeePlan_tc</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">viewfeeplan(Card, 4726450012000982, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</span>
+                <span class="method-start">578721 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">editfeeplan(TOP UP FEE PLAN, Fee Plan Selected)</span>
+                <span class="method-start">649861 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">editfeeplan(TRAN FEE PLAN, Fee Plan Selected)</span>
+                <span class="method-start">890728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">editfeeplan(POSPURCHASEFEE, Fee Plan Selected)</span>
+                <span class="method-start">1051318 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">editfeeplan(IVR FEE PLAN, Fee Plan Selected)</span>
+                <span class="method-start">1083949 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">callClose</span>
+                <span class="method-start">1116602 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cms.tcases.Limit_tc</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Limits(Card, 4726451234001758, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</span>
+                <span class="method-start">1132946 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cms.tcases.Services_tc</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Login(Card, 4726451234004059, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</span>
+                <span class="method-start">1159165 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyStatement(Services, accountNo, year, month, ToYear, ToMonth, View Statement, E-mail Statement, USD A/C – 12340...)</span>
+                <span class="method-start">1174227 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ViewStatement(USD A/C – 1234001773237, 2018, JUN, 2018, FEB)</span>
+                <span class="method-start">1214321 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ViewStatement(USD A/C – 1234001773237, 2018, AUG, 2017, DEC)</span>
+                <span class="method-start">1247755 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ViewStatement(USD A/C – 1234001773237, 2016, AUG, 2017, DEC)</span>
+                <span class="method-start">1281049 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ViewStatement(USD A/C – 1234001773237, 2017, JUL, 2017, JUN)</span>
+                <span class="method-start">1314183 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Logout(Logout Remarks)</span>
+                <span class="method-start">1347606 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cms.tcases.KitToKit_tc</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">kittokitpage1(Card, 4726450001000035, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</span>
+                <span class="method-start">1349896 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">kittokit1(4794121200077416)</span>
+                <span class="method-start">1369284 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">kittokit2(M2M, 4726450016003420, Kit Replacement Status, Message , Card Number, Status, Back)</span>
+                <span class="method-start">1370519 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callClose</span>
+                <span class="method-start">1436669 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cms.tcases.Comments_tc</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">comments(Card, 4614610016042125, 0012001223234, Akash, Patil, , akashm@fss.co, G43343434, , , , 123400000071,...)</span>
+                <span class="method-start">1440004 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLink</span>
+                <span class="method-start">1461832 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cms.tcases.MySetUp_tc</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">viewMySetUp(My Setup, MySetUp, User Personal Details, User ID , Date Of Birth, From Date , To Date, User Profile...)</span>
+                <span class="method-start">1467159 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MySetUp(Check to edit below details1, akashm@fss.co.in, Name of high school, Veer Jijau, Favorite animal, Ti...)</span>
+                <span class="method-start">1485273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MySetUp(Check to edit below details1, akashm@fss.co.in, Name of high school, Veer Jijau, Favorite animal, Ti...)</span>
+                <span class="method-start">1489568 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">1493906 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

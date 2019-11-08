@@ -1,0 +1,39 @@
+package listConcept;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+
+public class ArrayListConcepts {
+	
+	public static <E> void main (String[] args) {
+		
+		ArrayList ar = new ArrayList();
+		
+		ar.add(10);
+		ar.add("Cristo");
+		ar.add(10.33);
+		ar.add('A');
+		ar.add(50);
+		
+		System.out.println(ar.size());
+		
+		for(int i=0; i<ar.size();i++){
+			System.out.println(ar.get(i));
+		}
+		
+		ArrayList<Integer> arr = new ArrayList<Integer>();
+		arr.add(10);
+		
+		ArrayList<E> ar1 = new ArrayList<E>();
+		
+		EmployeeClass e = new EmployeeClass("John",26,"Dev");
+		EmployeeClass e1 = new EmployeeClass("Harry",27,"QA");
+		EmployeeClass e2 = new EmployeeClass("Navin",28,"Admin");
+	
+
+		}
+		
+	}
+	
+	

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63822" started-at="2019-08-16T05:10:49Z" finished-at="2019-08-16T05:11:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63822" started-at="2019-08-16T05:10:49Z" finished-at="2019-08-16T05:11:53Z">
+      <class name="datadriventest.DataProviderAnnoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:datadriventest.DataProviderAnnoTest@63d4e2ba]" name="setUp" is-config="true" duration-ms="18963" started-at="2019-08-16T10:40:50Z" finished-at="2019-08-16T10:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriventest.DataProviderAnnoTest@63d4e2ba]" name="registerPage" duration-ms="375" started-at="2019-08-16T10:41:09Z" data-provider="getExcelData" finished-at="2019-08-16T10:41:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Steve]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tomsteve@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[92060.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:datadriventest.DataProviderAnnoTest@63d4e2ba]" name="tearDown" is-config="true" duration-ms="1319" started-at="2019-08-16T10:41:09Z" finished-at="2019-08-16T10:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:datadriventest.DataProviderAnnoTest@63d4e2ba]" name="setUp" is-config="true" duration-ms="13698" started-at="2019-08-16T10:41:10Z" finished-at="2019-08-16T10:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriventest.DataProviderAnnoTest@63d4e2ba]" name="registerPage" duration-ms="282" started-at="2019-08-16T10:41:24Z" data-provider="getExcelData" finished-at="2019-08-16T10:41:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Larry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mike]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[larry@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[92061.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:datadriventest.DataProviderAnnoTest@63d4e2ba]" name="tearDown" is-config="true" duration-ms="1156" started-at="2019-08-16T10:41:24Z" finished-at="2019-08-16T10:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:datadriventest.DataProviderAnnoTest@63d4e2ba]" name="setUp" is-config="true" duration-ms="14968" started-at="2019-08-16T10:41:26Z" finished-at="2019-08-16T10:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriventest.DataProviderAnnoTest@63d4e2ba]" name="registerPage" duration-ms="353" started-at="2019-08-16T10:41:41Z" data-provider="getExcelData" finished-at="2019-08-16T10:41:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Slade]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[john@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[92062.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:datadriventest.DataProviderAnnoTest@63d4e2ba]" name="tearDown" is-config="true" duration-ms="1292" started-at="2019-08-16T10:41:41Z" finished-at="2019-08-16T10:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:datadriventest.DataProviderAnnoTest@63d4e2ba]" name="setUp" is-config="true" duration-ms="7619" started-at="2019-08-16T10:41:42Z" finished-at="2019-08-16T10:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriventest.DataProviderAnnoTest@63d4e2ba]" name="registerPage" duration-ms="2155" started-at="2019-08-16T10:41:50Z" data-provider="getExcelData" finished-at="2019-08-16T10:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kristian]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kie]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kite@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[92063.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:datadriventest.DataProviderAnnoTest@63d4e2ba]" name="tearDown" is-config="true" duration-ms="952" started-at="2019-08-16T10:41:52Z" finished-at="2019-08-16T10:41:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- datadriventest.DataProviderAnnoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

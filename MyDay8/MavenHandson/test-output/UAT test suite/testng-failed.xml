@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UAT test suite]">
+  <test name="TestCase1">
+    <classes>
+      <class name="testcase.TestNGFrstCase"/>
+    </classes>
+  </test> <!-- TestCase1 -->
+  <test name="TestCase2">
+    <classes>
+      <class name="testcase.TestNGSecCase"/>
+    </classes>
+  </test> <!-- TestCase2 -->
+  <test name="TestCase1(failed)">
+    <classes>
+      <class name="testcase.TestNGSecCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- testcase.TestNGSecCase -->
+      <class name="testcase.TestNGFrstCase">
+        <methods>
+          <include name="searchIphone"/>
+          <include name="OrderIphone"/>
+          <include name="AddtoCart"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testcase.TestNGFrstCase -->
+    </classes>
+  </test> <!-- TestCase1(failed) -->
+</suite> <!-- Failed suite [UAT test suite] -->

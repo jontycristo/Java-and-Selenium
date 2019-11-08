@@ -1,0 +1,11 @@
+<suite name="TestNG Suite Execution">
+	<test name ="Execute all the class">
+		<classes>
+			<class name="com.testng.TestNgBasics" />
+			<class name="com.testng.GoogleTest" />
+			<class name="com.testng.DependsOnMethodTest" />
+			<class name="com.testng.InvocationCount" />
+			<class name="com.testng.TimeOutsException" />
+		</classes>	
+	</test>
+</suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+	<test name="Test" parallel="none">
+		<classes>
+
+			<class name="cms.tcases.Login_tc" />
+			<class name="cms.tcases.Group_tc" />
+			<class name="cms.tcases.User_tc" />
+			<class name="cms.tcases.RRNSearch_tc" />
+			<class name="cms.tcases.CreateCall_tc" />
+			<class name="cms.tcases.Edit_Account_tc" />
+			<class name="cms.tcases.Card_Status_tc" />
+			<class name="cms.tcases.FeePlan_tc" />
+			<class name="cms.tcases.Limit_tc" />
+			<class name="cms.tcases.Services_tc" />
+			<class name="cms.tcases.KitToKit_tc" />
+			<class name="cms.tcases.Comments_tc" />
+			<class name="cms.tcases.MySetUp_tc" />
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

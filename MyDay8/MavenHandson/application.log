@@ -1,0 +1,4 @@
+2019-08-20 18:06:17,421  INFO [main] GenerateLog:18 - Browser Launched
+2019-08-20 18:06:19,028  INFO [main] GenerateLog:20 - URL loaded
+2019-08-20 18:06:19,032  INFO [main] GenerateLog:24 - Get Title: Google
+2019-08-20 18:06:19,032  INFO [main] GenerateLog:27 - Title is correct and Test case is Passed

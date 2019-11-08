@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FreeCRMTest Automation Test Suite]">
+  <test name="FreeCRMTest">
+    <classes>
+      <class name="com.crm.qa.testcases.LoginPageTest"/>
+      <class name="com.crm.qa.testcases.HomePageTest"/>
+      <class name="com.crm.qa.testcases.ContactsPageTest"/>
+    </classes>
+  </test> <!-- FreeCRMTest -->
+  <test name="FreeCRMTest(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyContactByNameTest"/>
+          <include name="verifyContactLable"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- FreeCRMTest(failed) -->
+</suite> <!-- Failed suite [FreeCRMTest Automation Test Suite] -->
